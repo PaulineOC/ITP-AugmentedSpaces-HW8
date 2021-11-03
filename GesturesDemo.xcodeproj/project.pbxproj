@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		51910DE5273183EE00030FB8 /* pinwheelStick.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 51910DE4273183EE00030FB8 /* pinwheelStick.usdz */; };
+		51910DE7273184C500030FB8 /* pinwheelBlades.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 51910DE6273184C500030FB8 /* pinwheelBlades.usdz */; };
+		51910DE92731854500030FB8 /* pinwheel3e.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 51910DE82731854500030FB8 /* pinwheel3e.usdz */; };
+		51910DEC27318C2700030FB8 /* pinwheel5Blades.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 51910DEA27318C2700030FB8 /* pinwheel5Blades.usdz */; };
+		51910DED27318C2700030FB8 /* pinwheel5Stick.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 51910DEB27318C2700030FB8 /* pinwheel5Stick.usdz */; };
+		51910DF02732595800030FB8 /* Pinwheel7Blades.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 51910DEE2732595800030FB8 /* Pinwheel7Blades.usdz */; };
+		51910DF12732595800030FB8 /* Pinwheel7Stick.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 51910DEF2732595800030FB8 /* Pinwheel7Stick.usdz */; };
+		51910DF427325D4100030FB8 /* Pinwheel8Stick.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 51910DF227325D4100030FB8 /* Pinwheel8Stick.usdz */; };
+		51910DF527325D4100030FB8 /* Pinwheel8Blades.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 51910DF327325D4100030FB8 /* Pinwheel8Blades.usdz */; };
+		51910DF72732D5D700030FB8 /* MerryGoRound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 51910DF62732D5D700030FB8 /* MerryGoRound.mp3 */; };
+		6AF1FF612704A80F0081D8DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF1FF602704A80F0081D8DA /* AppDelegate.swift */; };
+		6AF1FF632704A80F0081D8DA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF1FF622704A80F0081D8DA /* ContentView.swift */; };
+		6AF1FF672704A8100081D8DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AF1FF662704A8100081D8DA /* Assets.xcassets */; };
+		6AF1FF6A2704A8100081D8DA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AF1FF692704A8100081D8DA /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		51910DE4273183EE00030FB8 /* pinwheelStick.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = pinwheelStick.usdz; sourceTree = "<group>"; };
+		51910DE6273184C500030FB8 /* pinwheelBlades.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = pinwheelBlades.usdz; sourceTree = "<group>"; };
+		51910DE82731854500030FB8 /* pinwheel3e.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = pinwheel3e.usdz; sourceTree = "<group>"; };
+		51910DEA27318C2700030FB8 /* pinwheel5Blades.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = pinwheel5Blades.usdz; sourceTree = "<group>"; };
+		51910DEB27318C2700030FB8 /* pinwheel5Stick.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = pinwheel5Stick.usdz; sourceTree = "<group>"; };
+		51910DEE2732595800030FB8 /* Pinwheel7Blades.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Pinwheel7Blades.usdz; sourceTree = "<group>"; };
+		51910DEF2732595800030FB8 /* Pinwheel7Stick.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Pinwheel7Stick.usdz; sourceTree = "<group>"; };
+		51910DF227325D4100030FB8 /* Pinwheel8Stick.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Pinwheel8Stick.usdz; sourceTree = "<group>"; };
+		51910DF327325D4100030FB8 /* Pinwheel8Blades.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Pinwheel8Blades.usdz; sourceTree = "<group>"; };
+		51910DF62732D5D700030FB8 /* MerryGoRound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = MerryGoRound.mp3; sourceTree = "<group>"; };
+		6A0724D027066E42000D58DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		6AF1FF5D2704A80F0081D8DA /* GesturesDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GesturesDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AF1FF602704A80F0081D8DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6AF1FF622704A80F0081D8DA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6AF1FF662704A8100081D8DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6AF1FF692704A8100081D8DA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6AF1FF5A2704A80F0081D8DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6AF1FF542704A80F0081D8DA = {
+			isa = PBXGroup;
+			children = (
+				6AF1FF5F2704A80F0081D8DA /* GesturesDemo */,
+				6AF1FF5E2704A80F0081D8DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6AF1FF5E2704A80F0081D8DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6AF1FF5D2704A80F0081D8DA /* GesturesDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6AF1FF5F2704A80F0081D8DA /* GesturesDemo */ = {
+			isa = PBXGroup;
+			children = (
+				51910DF62732D5D700030FB8 /* MerryGoRound.mp3 */,
+				51910DF327325D4100030FB8 /* Pinwheel8Blades.usdz */,
+				51910DF227325D4100030FB8 /* Pinwheel8Stick.usdz */,
+				51910DEE2732595800030FB8 /* Pinwheel7Blades.usdz */,
+				51910DEF2732595800030FB8 /* Pinwheel7Stick.usdz */,
+				51910DE4273183EE00030FB8 /* pinwheelStick.usdz */,
+				51910DE6273184C500030FB8 /* pinwheelBlades.usdz */,
+				51910DEA27318C2700030FB8 /* pinwheel5Blades.usdz */,
+				51910DEB27318C2700030FB8 /* pinwheel5Stick.usdz */,
+				51910DE82731854500030FB8 /* pinwheel3e.usdz */,
+				6AF1FF602704A80F0081D8DA /* AppDelegate.swift */,
+				6AF1FF622704A80F0081D8DA /* ContentView.swift */,
+				6AF1FF662704A8100081D8DA /* Assets.xcassets */,
+				6A0724D027066E42000D58DC /* Info.plist */,
+				6AF1FF682704A8100081D8DA /* Preview Content */,
+			);
+			path = GesturesDemo;
+			sourceTree = "<group>";
+		};
+		6AF1FF682704A8100081D8DA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6AF1FF692704A8100081D8DA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6AF1FF5C2704A80F0081D8DA /* GesturesDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AF1FF6D2704A8100081D8DA /* Build configuration list for PBXNativeTarget "GesturesDemo" */;
+			buildPhases = (
+				6AF1FF592704A80F0081D8DA /* Sources */,
+				6AF1FF5A2704A80F0081D8DA /* Frameworks */,
+				6AF1FF5B2704A80F0081D8DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GesturesDemo;
+			productName = GesturesDemo;
+			productReference = 6AF1FF5D2704A80F0081D8DA /* GesturesDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6AF1FF552704A80F0081D8DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					6AF1FF5C2704A80F0081D8DA = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 6AF1FF582704A80F0081D8DA /* Build configuration list for PBXProject "GesturesDemo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6AF1FF542704A80F0081D8DA;
+			productRefGroup = 6AF1FF5E2704A80F0081D8DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6AF1FF5C2704A80F0081D8DA /* GesturesDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6AF1FF5B2704A80F0081D8DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51910DED27318C2700030FB8 /* pinwheel5Stick.usdz in Resources */,
+				51910DF12732595800030FB8 /* Pinwheel7Stick.usdz in Resources */,
+				51910DE7273184C500030FB8 /* pinwheelBlades.usdz in Resources */,
+				51910DF72732D5D700030FB8 /* MerryGoRound.mp3 in Resources */,
+				6AF1FF6A2704A8100081D8DA /* Preview Assets.xcassets in Resources */,
+				51910DEC27318C2700030FB8 /* pinwheel5Blades.usdz in Resources */,
+				51910DF527325D4100030FB8 /* Pinwheel8Blades.usdz in Resources */,
+				6AF1FF672704A8100081D8DA /* Assets.xcassets in Resources */,
+				51910DE92731854500030FB8 /* pinwheel3e.usdz in Resources */,
+				51910DF427325D4100030FB8 /* Pinwheel8Stick.usdz in Resources */,
+				51910DF02732595800030FB8 /* Pinwheel7Blades.usdz in Resources */,
+				51910DE5273183EE00030FB8 /* pinwheelStick.usdz in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6AF1FF592704A80F0081D8DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AF1FF632704A80F0081D8DA /* ContentView.swift in Sources */,
+				6AF1FF612704A80F0081D8DA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6AF1FF6B2704A8100081D8DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6AF1FF6C2704A8100081D8DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6AF1FF6E2704A8100081D8DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GesturesDemo/Preview Content\"";
+				DEVELOPMENT_TEAM = A865UNC6WC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GesturesDemo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MerryGoRoundOfLife;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Can use microphone";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mysite.-MerryGoRoundOfLife";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6AF1FF6F2704A8100081D8DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GesturesDemo/Preview Content\"";
+				DEVELOPMENT_TEAM = A865UNC6WC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GesturesDemo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MerryGoRoundOfLife;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Can use microphone";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mysite.-MerryGoRoundOfLife";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6AF1FF582704A80F0081D8DA /* Build configuration list for PBXProject "GesturesDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AF1FF6B2704A8100081D8DA /* Debug */,
+				6AF1FF6C2704A8100081D8DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AF1FF6D2704A8100081D8DA /* Build configuration list for PBXNativeTarget "GesturesDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AF1FF6E2704A8100081D8DA /* Debug */,
+				6AF1FF6F2704A8100081D8DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6AF1FF552704A80F0081D8DA /* Project object */;
+}
